@@ -11,6 +11,7 @@
                 <vs-input icon="search" placeholder="Search" v-model="search"/>
             </div>
             <div class="logout">
+                <vs-button :color="colorx" type="flat" size="small">설정</vs-button>
                 <vs-button :color="colorx" type="flat" size="small">로그아웃</vs-button>
             </div>
         </div>
@@ -31,6 +32,9 @@
 </script>
 
 <style scoped>
+    .sticky_header{
+        background-color: #fafafa;
+    }
     .sticky_header_logo{
         text-align: left;
         margin-top: 3px;

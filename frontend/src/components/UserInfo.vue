@@ -6,13 +6,13 @@
 
         <div class="user_profile">
             <div class="user_profile_data">
-                <div id="user_id">ming___jee
+                <div id="user_id">이용자 아이디
                     <vs-button :color="point" type="flat" size="small" id="edit">프로필 편집</vs-button>
                     <post-msg/>
                 </div>
-                <div id="user_post_name">게시물 <post id="user_post_number">98</post></div><br>
-                <div id="user_name">밍지</div>
-                <div id="user_memo">행복한 밍디월드~🍔🍕🍗🍺🍩🍦🍰🍒<br>운동도 열심히 해요 아자아자</div>
+                <div id="user_post_name">게시물 <post id="user_post_number">게시물 총 개수</post></div><br>
+                <div id="user_name">이용자 닉네임</div>
+                <div id="user_memo">이용자 메모</div>
             </div>
         </div>
     </div>
